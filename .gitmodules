@@ -1,0 +1,3 @@
+[submodule "lib/alarm_clock_hw_lib"]
+	path = lib/alarm_clock_hw_lib
+	url = git@github.com:craigc-2002/alarm_clock_hw_lib.git
