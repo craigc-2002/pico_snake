@@ -20,8 +20,11 @@ add_executable(snake
     snake.cpp
 )
 
+target_include_directories(snake PUBLIC include)
+
 target_link_libraries(snake
     alarm-clock-hw-lib
-    pico_stdlib)
+    pico_stdlib
+    pico_rand)
 
 pico_add_extra_outputs(snake)
